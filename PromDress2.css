@@ -1,0 +1,38 @@
+/* 
+* Annie McTaggart
+* Due Date
+* Project Name and Description
+*/
+
+*/ The universal selector */
+
+*{
+
+}
+
+/* Body attributes here */
+
+body {
+    width:80%;
+    margin: auto;
+    background-color: orange;
+}
+
+h1{
+    background-color: coral;/* color of background */
+    color: white; /* color of text */
+    font-family:cursive;
+}
+h3{
+    color: darkcyan;
+    font-family:inherit;
+}
+p{/*type elector for ALL paragraphs */
+    color: navy;
+    font-family: fantasy;
+}
+#redText { /* use an id to change text to red */
+    color: red;}
+.greenText{ /* use a class to change text to green in different kinds of elements*/
+    color: green;
+}
